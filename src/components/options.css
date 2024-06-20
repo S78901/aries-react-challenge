@@ -1,0 +1,26 @@
+h1 {
+    font-size: xx-large;
+}
+
+.wrap-options-calc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.wrap-options-flex-col {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrap-options-flex-row {
+    display: flex;
+    width: 100%;
+}
+
+.center-row {
+    justify-content: center;
+}
