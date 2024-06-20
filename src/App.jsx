@@ -4,9 +4,7 @@ import data from './data/sampledata.json';
 
 function App() {
   return (
-    <>
-      <OptionsProfitCalculator data={data} />
-    </>
+    <OptionsProfitCalculator data={data} />
   )
 }
 
